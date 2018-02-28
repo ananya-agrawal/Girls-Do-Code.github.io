@@ -7,7 +7,7 @@ const app = new Vue({
     },
 	
     created() {
-        fetch('https://github.com/Girls-Do-Code/Girls-Do-Code.github.io/static/js/events.json')
+        fetch('https://Girls-Do-Code.github.io/Girls-Do-Code.github.io/static/js/events.json')
             .then(response => response.json())
             .then(json => {
                 this.events = json.events
